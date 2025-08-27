@@ -88,7 +88,7 @@ export default function App() {
       title: "Get Your Sticker Quicker!",
       text: "Renew at a kiosk and print your registration sticker the same day.",
       button: "Find a kiosk near you",
-      image: `${process.env.PUBLIC_URL}/slide3.jpeg`,
+      image: `${process.env.PUBLIC_URL}/slide3.png`,
     },
   ];
 
