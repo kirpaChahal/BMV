@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BMV/static/css/main.8f5ec98c.css",
-    "main.js": "/BMV/static/js/main.770a0a35.js",
+    "main.js": "/BMV/static/js/main.a1eff912.js",
     "index.html": "/BMV/index.html",
     "main.8f5ec98c.css.map": "/BMV/static/css/main.8f5ec98c.css.map",
-    "main.770a0a35.js.map": "/BMV/static/js/main.770a0a35.js.map"
+    "main.a1eff912.js.map": "/BMV/static/js/main.a1eff912.js.map"
   },
   "entrypoints": [
     "static/css/main.8f5ec98c.css",
-    "static/js/main.770a0a35.js"
+    "static/js/main.a1eff912.js"
   ]
 }
