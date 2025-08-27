@@ -82,7 +82,7 @@ export default function App() {
       title: "E-Titling: Faster, Safer",
       text: "Enjoy reduced paperwork and enhanced efficiency with electronic titles.",
       button: "Learn the benefits of E-Title vs paper",
-      image: `${process.env.PUBLIC_URL}/slide2.jpeg`,
+      image: `${process.env.PUBLIC_URL}/slide2.jpg`,
     },
     {
       title: "Get Your Sticker Quicker!",
