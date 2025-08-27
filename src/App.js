@@ -76,19 +76,19 @@ export default function App() {
       title: "Save a Trip!",
       text: "Complete your transactions online through myBMV.",
       button: "Log in or register for a myBMV account",
-      image: "/slide1.jpeg",
+      image: `${process.env.PUBLIC_URL}/slide1.jpeg`,
     },
     {
       title: "E-Titling: Faster, Safer",
       text: "Enjoy reduced paperwork and enhanced efficiency with electronic titles.",
       button: "Learn the benefits of E-Title vs paper",
-      image: "/slide2.jpg",
+      image: `${process.env.PUBLIC_URL}/slide2.jpeg`,
     },
     {
       title: "Get Your Sticker Quicker!",
       text: "Renew at a kiosk and print your registration sticker the same day.",
       button: "Find a kiosk near you",
-      image: "/slide3.png",
+      image: "`${process.env.PUBLIC_URL}/slide3.jpeg`,
     },
   ];
 
@@ -182,7 +182,7 @@ export default function App() {
       <header className="site-header" role="banner">
         <div className="container header-inner">
           <div className="logo" data-reveal style={{ ["--reveal-delay"]: "0ms" }}>
-            <img src="/bmv-logo.png" alt="Indiana BMV logo" loading="eager" />
+            <img src={`${process.env.PUBLIC_URL}/bmv-logo.png`} alt="Indiana BMV logo" loading="eager" />
             <span aria-label="site name">Indiana BMV (Staging)</span>
           </div>
           <nav className="nav" aria-label="Primary" data-reveal style={{ ["--reveal-delay"]: "80ms" }}>
